@@ -251,6 +251,8 @@ public class OpenFilePlugin implements MethodCallHandler
                 return "audio/mpeg";
             case "msg":
                 return "application/vnd.ms-outlook";
+            case "ods":
+                return "application/vnd.oasis.opendocument.spreadsheet";
             case "ogg":
                 return "audio/ogg";
             case "pdf":
